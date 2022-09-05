@@ -1,4 +1,4 @@
-/* Having satatement should after the group by */
+/* Having satatement should after the group by. This apply condition on group */
 SELECT JOBTITLE,COUNT(JOBTITLE)
 FROM SQLTutorial.dbo.EMPLOYEEDEMOGRAPHICS
 JOIN SQLTutorial.dbo.EMPLOYSALARIES
